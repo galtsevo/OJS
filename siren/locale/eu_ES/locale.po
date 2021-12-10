@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:45+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:45+00:00\n"
+"Language: \n"
+
+msgid "plugins.importexport.siren.displayName"
+msgstr "Siren XML Esportatzeko plugina"
+
+msgid "plugins.importexport.siren.description"
+msgstr "Artikuluen metadatuak Siren XML formatura esportatu, MEDLINEn indexatzeko."
+
+msgid "plugins.importexport.siren.export"
+msgstr "Esportatu datuak"
+
+msgid "plugins.importexport.siren.export.issues"
+msgstr "Esportatu zenbakiak"
+
+msgid "plugins.importexport.siren.export.selectIssue"
+msgstr "Hautatu esportatzeko zenbakia."
+
+msgid "plugins.importexport.siren.export.articles"
+msgstr "Esportatu artikuluak"
+
+msgid "plugins.importexport.siren.export.selectArticle"
+msgstr "Hautatu esportatzeko artikuluak."
+
+msgid "plugins.importexport.siren.cliUsage"
+msgstr ""
+"Usage: \n"
+"{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles [articleId1] [articleId2] ...\n"
+"{$scriptName} {$pluginName} [xmlFileName] [journal_path] issue [issueId]\n"
+""
+
+msgid "plugins.importexport.siren.cliError"
+msgstr "ERROREA:"
+
+msgid "plugins.importexport.siren.export.error.issueNotFound"
+msgstr "Ez dago \"{$issueId}\" IDarekin bat datorren zenbakirik."
+
+msgid "plugins.importexport.siren.export.error.articleNotFound"
+msgstr "Ez dago \"{$articleId}\" IDarekin bat datorren artikulurik."

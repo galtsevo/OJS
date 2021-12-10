@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filterConfig SYSTEM "../../../../lib/pkp/dtd/filterConfig.dtd">
+
+<!--
+  * filterConfig.xml
+  *
+  * Copyright (c) 2014-2020 Simon Fraser University
+  * Copyright (c) 2003-2020 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Filter Configuration.
+  -->
+<filterConfig>
+	<filterGroups>
+		<!-- Siren XML article output -->
+		<filterGroup
+			symbolic="article=>siren-xml"
+			displayName="plugins.importexport.siren.displayName"
+			description="plugins.importexport.siren.description"
+			inputType="class::classes.submission.Submission[]"
+			outputType="xml::dtd" />
+	</filterGroups>
+	<filters>
+		<!-- Siren article output -->
+		<filter
+			inGroup="article=>siren-xml"
+			class="plugins.importexport.siren.filter.ArticleSirenXmlFilter"
+			isTemplate="0" />
+	</filters>
+</filterConfig>

@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-19T11:05:45+00:00\n"
+"PO-Revision-Date: 2019-11-19T11:05:45+00:00\n"
+"Language: \n"
+
+msgid "plugins.importexport.siren.displayName"
+msgstr "Siren XML Export Plugin"
+
+msgid "plugins.importexport.siren.description"
+msgstr "Exporteer artikel-metadata in Siren XML formaat voor indexering in MEDLINE."
+
+msgid "plugins.importexport.siren.export"
+msgstr "Exporteer data"
+
+msgid "plugins.importexport.siren.export.issues"
+msgstr "Problemen met de export"
+
+msgid "plugins.importexport.siren.export.selectIssue"
+msgstr "Kies het te exporteren nummer."
+
+msgid "plugins.importexport.siren.export.articles"
+msgstr "Exporteer artikels"
+
+msgid "plugins.importexport.siren.export.selectArticle"
+msgstr "Kies de te exporteren artikels."
+
+msgid "plugins.importexport.siren.cliUsage"
+msgstr ""
+"Gebruik: \n"
+"{$scriptName} {$pluginName} [xmlBestandNaam] [tijdschrift_pad] artikels [artikelId1] [artikelId2] ...\n"
+"{$scriptName} {$pluginName} [xmlBestandsNaam] [tijdschrift_pad] nummer [nummerId]\n"
+""
+
+msgid "plugins.importexport.siren.cliError"
+msgstr "FOUT:"
+
+msgid "plugins.importexport.siren.export.error.issueNotFound"
+msgstr "Het opgegeven nummer-ID bestaat niet \"{$issueId}\"."
+
+msgid "plugins.importexport.siren.export.error.articleNotFound"
+msgstr "Het opgegeven artikel-ID bestaat niet \"{$articleId}\"."
